@@ -7,12 +7,12 @@ import (
 type HelloUniversePlugin struct{}
 
 func (h HelloUniversePlugin) Run() error {
-	fmt.Println("Hello, World!")
+	fmt.Println("Hello, Universe!")
 	return nil
 }
 
 func (h HelloUniversePlugin) Name() string {
-	return "hello_world"
+	return "hello_universe"
 }
 
 func (h HelloUniversePlugin) Version() string {
