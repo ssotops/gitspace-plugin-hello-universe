@@ -1,0 +1,14 @@
+[plugin]
+name = "hello_universe"
+version = "1.0.0"
+description = "A simple Hello Universe plugin for Gitspace"
+author = "Gitspace Team"
+
+[[plugin.sources]]
+path = "hello_universe"
+entry_point = "Plugin"
+
+[plugin.sources.repository]
+type = "github"
+url = "https://github.com/ssotops/gitspace-plugin-hello-universe"
+branch = "master"
