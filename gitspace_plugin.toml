@@ -5,7 +5,7 @@ description = "A simple Hello Universe plugin for Gitspace"
 author = "Gitspace Team"
 
 [[plugin.sources]]
-path = "hello_universe"
+path = "hello_universe.go"
 entry_point = "Plugin"
 
 [plugin.sources.repository]
